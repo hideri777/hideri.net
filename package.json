@@ -1,0 +1,11 @@
+{
+  "name": "minimun-tailwindcss",
+  "version": "1.0.0",
+  "scripts": {
+    "build:css": "tailwindcss build -i public/tailwind.css -o public/style.css",
+    "watch:css": "tailwindcss -i public/tailwind.css -o public/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}
