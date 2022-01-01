@@ -4,12 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Entrance</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>hideri.net TOP</title>
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="bg-gray-100">
+    <div id="app" class="flex flex-col bg-gray-200">
+        <!-- ヘッダー TODO: ハンバーガーメニューとレスポンシブやる -->
+        <header class="bg-white border-b">
+            <div class="container px-4 py-5 mx-auto">
+                <a href="/" class="text-gray-800">
+                    <p class="text-xl ml-2">hideri.net</p>
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <!-- セクションサンプル -->
+            <div class="bg-indigo-600">
+                <div class="flex items-center justify-center">
+                    <div class="py-14 text-center px-5 sm:px-0">
+                        <h2 class="text-3xl sm:text-4xl text-white font-extrabold tracking-tight">
+                            <span class="block">hideri.net</span>
+                            <span class="block"></span>
+                        </h2>
+                        <h2 class="text-gray-50 mt-5 tracking-wide text-sm sm:text-base">
+                            <span class="block">紹介ページ</span>
+                            <span class="block"></span>
+                        </h2>
+                        <div class="shadow inline-flex mt-5">
+                            <a href="#" class="inline-flex items-center justify-center bg-white hover:bg-indigo-200 px-4 py-3 border border-transparent rounded-md text-indigo-500 font-medium">
+                                About
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ページの中身 -->
+            <section class="container px-4 py-10 mx-auto">
+                <h4 class="text-3xl font-semi-bold text-center text-gray-800">
+                    Contents
+                </h4>
+                <div class="text-center py-5">
+                    <a href="https://blog.hideri.net">
+                        <div class="bg-white p-10 rounded-xl">
+                            <p class="text-xl text-gray-600 font-bold">ブログ</p>
+                            <p class="text-lg text-gray-600">雑記ブログ</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- ボタンのサンプル -->
+                <!-- <button type="submit" class="
+                    inline-flex 
+                    justify-center 
+                    py-3 
+                    px-4 
+                    border 
+                    border-transparent 
+                    text-sm 
+                    font-medium 
+                    rounded 
+                    text-white 
+                    bg-green-600 
+                    hover:bg-green-700 
+                    transition-colors">
+                    Default button
+                </button> -->
+            </section>
+        </main>
+
+        <!-- フッター -->
+        <div class="bg-gray-100">
+            <div class="container flex flex-col items-center px-4 py-10 mx-auto">
+                <a href="/" class="text-gray-800">
+                    <p class="text-xl">hideri.net</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
