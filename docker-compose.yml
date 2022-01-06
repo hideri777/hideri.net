@@ -3,7 +3,7 @@ version: "3.7"
 services:
   web:
     image: nginx
-    container_name: kakunin-nginx
+    container_name: simple-nginx-container
     # ports: # ポートの指定はnginx-proxyでするのでここではしない
     #   - "80:80"
     networks:
